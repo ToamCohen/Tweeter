@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>Document</title>
+</head>
+<body>
+	<input type="text" id="input">
+	<button id="post" >Click</button>
+
+		<div id="container-for-template" >
+			<div id="comments" ></div>
+		</div>
+
+		<script id="tweeter-template" type="text/x-handlebars-template" >
+			{{#each posts}}
+			<div class="postText" >{{text}}</div>
+			<div id={{id}}  class=container>
+				
+				<button class="delete" >delete</button>
+				<div>
+				<input class="inputs" type="text">
+					<button class="buttons" >submit</button>
+				</div>
+				<div id="flex">
+
+				
+				{{#each comments}}
+				<div id="{{id}}" class="comments" > {{text}} <span class="delete-comment" >X</span> </div>
+				{{/each}}
+			</div>
+		</div>
+			{{/each}}
+		</script>
+	<script src="./node_modules/jquery/dist/jquery.js"></script>
+	<script src="./node_modules/handlebars/dist/handlebars.js"></script>
+	<script src="Renderer.js"></script>
+	<script src="Logic.js"></script>
+	<script src="main.js"></script>
+</body>
+</html>
