@@ -1,0 +1,79 @@
+
+body{
+	background-color: rgb(91, 166, 216);
+	text-align: center;
+}
+
+
+.container{
+	display: inline-block;
+    background-color: rgb(249, 210, 162);
+	width:500px;
+	height:150px;
+	border-radius: 1em;
+
+}
+
+.delete{
+	float: right;
+	padding: 1em;
+	border-radius:1em  ;
+	background-color: rgb(238, 211, 188);
+	border-color:rgb(185, 184, 184);
+
+}
+
+.inputs{
+	margin-top: 35px;
+	margin-left: 3px;
+	height: 3.5em;
+	width: 60%;
+	border-radius:1em ;
+	border-color:rgb(185, 184, 184);
+	font-size: 1em;
+	text-align: start;
+
+
+}
+
+.buttons{
+	padding: 2em;
+	border-radius:1em ;
+	background-color: rgb(238, 211, 188);
+	border-color:rgb(185, 184, 184);
+
+
+
+}
+
+#container-for-template{
+    max-width: 97%;
+}
+
+.postText{
+	max-width: 500px;
+    background-color: rgb(228, 212, 186);
+    margin-top: 85px;
+    margin-left: 567px;
+    font-size: 2em;
+    border-radius: 18px;
+    text-align: center;
+}
+
+.comments{
+	display: block;
+	text-align: start;
+	font-size: 1.5em;
+}
+
+
+#flex{
+	background-color: rgb(207, 207, 207);
+	padding: 30px;
+	margin-top:55px ;
+	margin-bottom: 55px;
+	border-radius: 10px;
+
+
+	
+}
